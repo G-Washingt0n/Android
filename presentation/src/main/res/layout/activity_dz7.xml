@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="java.lang.String"/>
+        <import type="android.view.View"/>
+        <variable name="user"
+            type="com.pgmail.martsulg.testapplication.AtHome.DZ7.User"/>
+        <variable
+            name="viewModel"
+            type="com.pgmail.martsulg.testapplication.AtHome.DZ7.ProfileViewModel"/>
+
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background='@{user.gender == "men" ? @color/DZ7Blue : @color/DZ7Pink }'
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:imageUrl = "@{viewModel.imageUrl}"
+            android:layout_marginTop="15dp"/>
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:textSize="24dp"
+            android:text="@{user.firstName}"/>
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="@{user.lastName}"/>
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="@{Integer.toString(user.age)}"/>
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:text="@{user.gender}"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="@{viewModel.imageUrl == null ? View.VISIBLE : View.GONE}"/>
+
+    </LinearLayout>
+
+</layout>

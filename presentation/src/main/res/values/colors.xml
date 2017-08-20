@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--DZ1 -->
+    <color name="DZ_readyColor">#4bdf15</color>
+    <color name="DZ_NOTreadyColor">#de1212</color>
+    <color name="ClassworkColor">#21b1b6</color>
+
+    <!--Class2 -->
+    <color name="Class2ButtonText">#e12323</color>
+
+    <!-- DZ4 -->
+    <color name="DZ4Black">#000000</color>
+    <color name="DZ4Orange">#f96204</color>
+    <color name="DZ4White">#ffffff</color>
+
+    <!-- DZ7 -->
+    <color name="DZ7Blue">#1dcbf7</color>
+    <color name="DZ7Pink">#f70a98</color>
+
+
+    <!-- -->
+    <!-- -->
+    <!-- -->
+
+
+</resources>

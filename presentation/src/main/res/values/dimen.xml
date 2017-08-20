@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- DZ1 -->
+    <dimen name="dz1_text_Size">24dp</dimen>
+
+    <!-- Class2 -->
+    <dimen name="class2_marginTop">80dp</dimen>
+
+
+
+</resources>

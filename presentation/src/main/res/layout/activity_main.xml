@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false">
+
+    <Button
+        android:id="@+id/dz1Button"
+        style="@style/InMain_dzButtons"
+        android:background="@color/DZ_readyColor"
+        android:text="DZ1" />
+
+    <Button
+        style="@style/InMain_classButtons"
+        android:id="@+id/class2Button"
+        android:text="Class2" />
+
+    <Button
+    style="@style/InMain_dzButtons"
+    android:id="@+id/dz2Button"
+    android:background="@color/DZ_readyColor"
+    android:text="DZ2" />
+
+    <Button
+        style="@style/InMain_classButtons"
+        android:id="@+id/class3Button"
+        android:text="Class3" />
+
+    <Button
+        android:id="@+id/dz3Button"
+        style="@style/InMain_dzButtons"
+        android:background="@color/DZ_readyColor"
+        android:text="DZ3" />
+
+    <Button
+        android:id="@+id/class4Button"
+        style="@style/InMain_classButtons"
+        android:text="Class4" />
+    <Button
+        android:id="@+id/dz4Button"
+        style="@style/InMain_dzButtons"
+        android:background="@color/DZ_readyColor"
+        android:text="DZ4" />
+    <Button
+        android:id="@+id/class5Button"
+        style="@style/InMain_classButtons"
+        android:text="Class5" />
+    <Button
+        android:id="@+id/dz5Button"
+        style="@style/InMain_dzButtons"
+        android:background="@color/DZ_readyColor"
+        android:text="DZ5" />
+
+    <Button
+        android:id="@+id/class6Button"
+        style="@style/InMain_classButtons"
+        android:text="Class6" />
+    <Button
+        android:id="@+id/dz6Button"
+        style="@style/InMain_dzButtons"
+        android:background="@color/DZ_readyColor"
+        android:text="DZ6" />
+
+    <Button
+        android:id="@+id/class7Button"
+        style="@style/InMain_classButtons"
+        android:text="Class7" />
+
+    <Button
+        android:id="@+id/dz7Button"
+        style="@style/InMain_dzButtons"
+        android:background="@color/DZ_NOTreadyColor"
+        android:text="DZ7" />
+
+    <Button
+        android:id="@+id/class8Button"
+        style="@style/InMain_classButtons"
+        android:text="Class8" />
+
+    <Button
+        android:id="@+id/class9Button"
+        style="@style/InMain_classButtons"
+        android:text="Class9" />
+
+    <Button
+        android:id="@+id/dz9Button"
+        style="@style/InMain_dzButtons"
+        android:background="@color/DZ_NOTreadyColor"
+        android:text="DZ9" />
+
+    <Button
+        android:id="@+id/class12Button"
+        style="@style/InMain_classButtons"
+        android:text="Class12" />
+
+
+
+
+</LinearLayout>
+
+</ScrollView>

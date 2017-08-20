@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pgmail.martsulg.testapplication">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:name=".main.TetsApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".main.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".AtHome.DZ1.Dz1Activity"/>
+        <activity android:name=".Classes.Class2.Class2Activity"/>
+        <activity android:name=".Classes.Class3.Class3Activity"/>
+        <activity android:name=".AtHome.DZ2.Dz2Activity"/>
+        <activity android:name=".AtHome.DZ3.Dz3Activity"/>
+        <activity android:name=".Classes.Class4.Class4Activity"/>
+        <activity android:name=".AtHome.DZ4.Dz4Activity"/>
+        <activity android:name=".Classes.Class5.Class5Activity"/>
+
+       <!-- <receiver android:name=".Classes.Class5.MyBCReceiver">
+        <intent-filter>
+            <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+
+        </intent-filter>
+        </receiver>
+        -->
+
+        <service android:name=".Classes.Class5.MyService"/>
+        <service android:name=".Classes.Class5.MyIntentService"/>
+        <activity android:name=".Classes.Class6.Class6Activity"/>
+        <activity android:name=".Classes.Class7.Class7Activity"/>
+        <activity android:name=".Classes.Class8.Class8Activity"/>
+        <activity android:name=".Classes.Class9.Class9Activity"/>
+        <activity android:name=".AtHome.DZ5.Dz5Activity"/>
+        <service android:name=".AtHome.DZ5.Dz5Service"/>
+        <activity android:name=".AtHome.DZ6.Dz6Activity"/>
+        <activity android:name=".AtHome.DZ7.Dz7Activity"/>
+        <activity android:name=".Classes.Class12.Class12Activity"/>
+
+
+
+
+    </application>
+
+</manifest>

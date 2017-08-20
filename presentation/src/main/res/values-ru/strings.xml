@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Test Application</string>
+    <!--Class2 -->
+    <string name="Class2_name"> Имя</string>
+    <string name="Class2_login">Войти</string>
+    <string name="Class2_password">Пароль</string>
+</resources>

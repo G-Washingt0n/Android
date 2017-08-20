@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Test Application</string>
+    <!--DZ1-->
+    <string name="DZ1_Hello">Hello</string>
+    <string name="DZ1_World">World</string>
+
+    <!--Class2 -->
+    <string name="Class2_name"> Name</string>
+    <string name="Class2_login">Login</string>
+    <string name="Class2_password">Password</string>
+    <!--Class3 -->
+    <string name="Class3_Button">button</string>
+    <!-- -->
+    <!-- -->
+    <!-- -->
+
+
+</resources>

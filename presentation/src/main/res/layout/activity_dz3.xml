@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/dz3EditText"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:inputType="textPersonName"
+        android:hint="Input your link right here"/>
+    <Button
+        style="@style/LoginButton"
+        android:id="@+id/dz3ViewButton"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/class2_marginTop"
+        android:layout_gravity="center"
+        android:textSize="22dp"
+        android:text="View" />
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/dz3imageView"
+        android:layout_width="252dp"
+        android:layout_gravity="center"
+        android:layout_height="150dp"
+        android:layout_weight="0.15" />
+
+    <TextView
+        android:id="@+id/dz3textView"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+</LinearLayout>
