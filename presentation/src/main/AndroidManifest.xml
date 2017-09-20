@@ -47,7 +47,14 @@
         <service android:name=".AtHome.DZ5.Dz5Service"/>
         <activity android:name=".AtHome.DZ6.Dz6Activity"/>
         <activity android:name=".AtHome.DZ7.Dz7Activity"/>
+        <activity android:name=".AtHome.DZ9.Dz9Activity"/>
+
         <activity android:name=".Classes.Class12.Class12Activity"/>
+        <activity android:name=".Classes.Class13.Class13Activity"/>
+        <activity android:name=".Classes.Class14.Class14Activity"/>
+        <activity android:name=".Classes.Class16.Class16Activity"/>
+        <activity android:name=".Classes.Class18.Class18Activity"/>
+
 
 
 

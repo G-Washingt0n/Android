@@ -5,7 +5,7 @@ import android.widget.ImageView;
 
 import com.squareup.picasso.Picasso;
 
-public class ProfileViewModel{
+public class ProfileViewModel {
 
     public String getImageUrl() {
 
@@ -18,4 +18,6 @@ return "";
                 .load(imageUrl)
                 .into(imageView);
     }
+
+
 }

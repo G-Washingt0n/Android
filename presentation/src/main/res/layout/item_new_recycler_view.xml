@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <layout>
+<data>
+
+    <import type="android.view.View"/>
+    <variable name="viewModel"
+        type="com.pgmail.martsulg.testapplication.AtHome.DZ9.ProfileItemViewModel"/>
+
+</data>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/dz9ImageView"
+        android:layout_gravity="center_vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        tools:src="@{viewModel.url}"/>
+
+
+
+
+</FrameLayout>
+    </layout>

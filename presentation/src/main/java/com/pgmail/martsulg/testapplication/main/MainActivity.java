@@ -14,7 +14,12 @@ import com.pgmail.martsulg.testapplication.AtHome.DZ4.Dz4Activity;
 import com.pgmail.martsulg.testapplication.AtHome.DZ5.Dz5Activity;
 import com.pgmail.martsulg.testapplication.AtHome.DZ6.Dz6Activity;
 import com.pgmail.martsulg.testapplication.AtHome.DZ7.Dz7Activity;
+import com.pgmail.martsulg.testapplication.AtHome.DZ9.Dz9Activity;
 import com.pgmail.martsulg.testapplication.Classes.Class12.Class12Activity;
+import com.pgmail.martsulg.testapplication.Classes.Class13.Class13Activity;
+import com.pgmail.martsulg.testapplication.Classes.Class14.Class14Activity;
+import com.pgmail.martsulg.testapplication.Classes.Class16.Class16Activity;
+import com.pgmail.martsulg.testapplication.Classes.Class18.Class18Activity;
 import com.pgmail.martsulg.testapplication.Classes.Class2.Class2Activity;
 import com.pgmail.martsulg.testapplication.Classes.Class3.Class3Activity;
 import com.pgmail.martsulg.testapplication.Classes.Class4.Class4Activity;
@@ -162,6 +167,16 @@ public class MainActivity extends Activity {
             }
         });
 
+        final Button dz9Button = (Button) findViewById(R.id.dz9Button);
+        dz9Button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Dz9Activity.class);
+                startActivity(intent);
+                overridePendingTransition(R.anim.bottom_in,R.anim.alpha);
+            }
+        });
+
         Button class8Button = (Button) findViewById(R.id.class8Button);
         class8Button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -189,6 +204,38 @@ public class MainActivity extends Activity {
             }
         });
 
+        Button class13Button = (Button) findViewById(R.id.class13Button);
+        class13Button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Class13Activity.class);
+                startActivity(intent);
+            }
+        });
+        Button class14Button = (Button) findViewById(R.id.class14Button);
+        class14Button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Class14Activity.class);
+                startActivity(intent);
+            }
+        });
+        Button class16Button = (Button) findViewById(R.id.class16Button);
+        class16Button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Class16Activity.class);
+                startActivity(intent);
+            }
+        });
+        Button class18Button = (Button) findViewById(R.id.class18Button);
+        class18Button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Class18Activity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 

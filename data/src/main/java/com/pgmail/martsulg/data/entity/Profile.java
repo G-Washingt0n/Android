@@ -1,5 +1,6 @@
 package com.pgmail.martsulg.data.entity;
 
+
 import com.google.gson.annotations.SerializedName;
 
 /**

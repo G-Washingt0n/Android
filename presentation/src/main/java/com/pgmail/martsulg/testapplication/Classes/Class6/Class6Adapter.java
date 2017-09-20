@@ -36,7 +36,6 @@ public class Class6Adapter extends RecyclerView.Adapter<Class6Adapter.Holder> {
             super(itemView);
             imageView = (ImageView) itemView.findViewById(R.id.class6ImageView);
             textView = (TextView) itemView.findViewById(R.id.class6TextView);
-
         }
     }
 

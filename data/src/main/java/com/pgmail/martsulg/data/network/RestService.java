@@ -37,7 +37,6 @@ public class RestService {
         logging.setLevel(HttpLoggingInterceptor.Level.BODY);
 
 
-
         OkHttpClient okHttpClient = new OkHttpClient.Builder()
                 .readTimeout(10, TimeUnit.SECONDS)
                 .connectTimeout(10, TimeUnit.SECONDS)

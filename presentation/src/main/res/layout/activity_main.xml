@@ -100,6 +100,24 @@
         style="@style/InMain_classButtons"
         android:text="Class12" />
 
+    <Button
+        android:id="@+id/class13Button"
+        style="@style/InMain_classButtons"
+        android:text="Class13" />
+
+    <Button
+        android:id="@+id/class14Button"
+        style="@style/InMain_classButtons"
+        android:text="Class14" />
+
+    <Button
+        android:id="@+id/class16Button"
+        style="@style/InMain_classButtons"
+        android:text="Class16" />
+    <Button
+        android:id="@+id/class18Button"
+        style="@style/InMain_classButtons"
+        android:text="Class18" />
 
 
 
