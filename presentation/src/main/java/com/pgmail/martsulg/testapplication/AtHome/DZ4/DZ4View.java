@@ -31,7 +31,7 @@ public class DZ4View extends View {
     Date date = new Date();
     Calendar calendar = new GregorianCalendar();
 
-    static int seconds;
+    int seconds;
     int minutes;
     int hours;
     float radius;
@@ -49,7 +49,6 @@ public class DZ4View extends View {
     public DZ4View(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         initialize();
-
     }
 
     public DZ4View(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
@@ -85,7 +84,6 @@ public class DZ4View extends View {
         @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        //Log.println(Log.INFO,"AAAAA",calendar.getTime().toString());
 
         myPan.setTextSize(24);
         myPan.setColor(ContextCompat.getColor(getContext(), R.color.DZ4Orange));
@@ -99,6 +97,7 @@ public class DZ4View extends View {
             canvas.rotate(6,getWidth()/2,getHeight()/2);
         }
 
+        //
         myPan.setColor(ContextCompat.getColor(getContext(), R.color.DZ_readyColor));
         canvas.drawCircle(getWidth() / 2, getHeight() / 2 - getWidth() / 3, 2*dotRadius, myPan);
 
@@ -115,7 +114,7 @@ public class DZ4View extends View {
 
         canvas.restoreToCount(count);
         canvas.rotate(180,getWidth()/2,getHeight()/2);
-        for(int i=0;i<60;i++){
+        for(int i=0;i<=60;i++){
             if(i==minutes) {
                 myPan.setStrokeWidth(10);
                 canvas.drawLine(getWidth() / 2, getHeight() / 2, getWidth() / 2,(getHeight() / 2 - radius + 290), myPan);

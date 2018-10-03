@@ -30,8 +30,7 @@ android {
         }
 
         developer{
-            buildConfigField "String", "API_REST", "http://test.tut.by/"
-
+//            buildConfigField "String", "API_REST", "http://test.tut.by/"
             versionCode 1
             versionName "0.1"
 
